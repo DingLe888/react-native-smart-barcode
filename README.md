@@ -114,16 +114,6 @@ protected void onCreate(Bundle savedInstanceState) {
 }
 ```
 
-* In AndroidManifest.xml, add camera permissions
-```
-...
-<uses-permission android:name="android.permission.CAMERA"/>
-<uses-permission android:name="android.permission.VIBRATE"/>
-
-<uses-feature android:name="android.hardware.camera"/>
-<uses-feature android:name="android.hardware.camera.autofocus"/>
-...
-```
 
 
 ## Full Demo
